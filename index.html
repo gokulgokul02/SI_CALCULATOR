@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI</title>
+    <style>
+      input{
+        border: 2px solid green;
+        border-radius: 25px;padding: 10px;
+        background-color: lightgreen;
+        cursor: default;
+        align-items: center;
+          text-align: center;
+          position: absolute;
+        
+  
+
+      }
+      input:focus{
+        border: 2px solid black;
+        background-color: white;
+        background: transparent;
+      
+      }
+      
+    </style>
+</head>
+<body>
+    <h1 style="font-family: 'Courier New', Courier, monospace; text-align:center;position: absolute;margin-left: 650px;"onclick>SIMPLE INTEREST CALCULATOR</h1>
+    <img style="position: absolute;" src="images/3-removebg-preview.png" alt="">
+     <input style="margin-left: 600px;margin-top: 150px;" type="text"placeholder="ENTER PRINCIPLE AMOUNT(P) " id="p">
+   <input style="margin-top: 150px;margin-left: 850px;" type="text" placeholder="ENTER NO.OF YEARS(N)" id="n">
+   <input style="margin-top: 150px;margin-left: 1100px;" type="text" placeholder="ENTER INTEREST RATE(R)" id="r"><br>
+  <input id="submit" style="position: absolute; margin-top: 200px; background-color: coral;margin-left: 875px;border: 2px solid black;box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.9);" type="submit" value="CALULATE SI" onclick="calculate() ">
+   <br>
+   <span style="font-family: 'Courier New', Courier, monospace; margin-left: 825px;position: absolute;margin-top: 300px;font-weight: bold;" id="result"></span>
+   <img onclick=bg_color() style="margin-top: 350px;margin-left: 800px;" src="images/1-removebg-preview.png" alt="">
+    <script src="js/main.js"></script>
+
+</body>
+</html>
